@@ -1,3 +1,21 @@
-h1 {
+h1, h2 {
+    /*Petit commentaire*/
     color: royalblue;
+    font-style: italic;
+}
+
+p, ul {
+    color: cornflowerblue;
+}
+
+.par-ici {
+    color: #663399;
+}
+
+#id {
+    color: #663399;
+}
+
+.gd {
+    font-size: 30px;
 }
