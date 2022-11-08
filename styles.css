@@ -1,7 +1,13 @@
+@font-face {
+    font-family: 'NewCicle';
+    src: url('assets/fonts/New_Cicle_Fina_Italic-webfont.ttf') format("ttf");
+}
+
 h1, h2 {
     /*Petit commentaire*/
     color: #663399;
     font-style: italic;
+    font-family: 'NewCicle';
 }
 
 h1 {
