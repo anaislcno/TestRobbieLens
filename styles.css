@@ -1,27 +1,45 @@
 @font-face {
+    font-family: 'NewCicleItalic';
+    src: url('assets/fonts/New_Cicle_Fina_Italic-webfont.ttf');
+}
+@font-face {
     font-family: 'NewCicle';
-    src: url('assets/fonts/New_Cicle_Fina_Italic-webfont.ttf') format("ttf");
+    src: url('assets/fonts/New_Cicle_Fina-webfont.ttf');
 }
 
-h1, h2 {
+h1, h2, .important {
     /*Petit commentaire*/
-    color: #663399;
-    font-style: italic;
-    font-family: 'NewCicle';
+    color: #A5B5F9;
+}
+
+body {
+    font-family:'NewCicle';
+    color: white;
+    background-color: #1F2039;
 }
 
 h1 {
     font-size: 200%;
 }
 
-p, ul {
-    color: #663399;
-}
-
 a {
-    color: black;
+    color: white;
+    text-decoration: none;
 }
 
-.important {
-    color: #a5b4fc;
+a:focus {
+    font-weight: bold;
+}
+
+a:visited {
+    color:#A5B5F9;
+}
+
+p {
+    box-shadow: 5px 5px 5px #A5B5F9;
+}
+
+header, footer {
+    background-color: white;
+    padding: 10px;
 }
