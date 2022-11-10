@@ -7,15 +7,24 @@
     src: url('assets/fonts/New_Cicle_Fina-webfont.ttf');
 }
 
+:root {
+    --bg-color: #1F2039;
+    --text-color: white;
+    --logo-color-light: white;
+    --logo-color-dark: black;
+}
+
 h1, h2, .important {
     /*Petit commentaire*/
-    color: #A5B5F9;
+    color: #A5B5F9; 
+    margin: 10px;
 }
 
 body {
     font-family:'NewCicle';
     color: white;
-    background-color: #1F2039;
+    background-color: var(--bg-color);
+    margin: 0;
 }
 
 h1 {
@@ -23,7 +32,7 @@ h1 {
 }
 
 a {
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
@@ -31,17 +40,30 @@ a:focus {
     font-weight: bold;
 }
 
-a:visited {
+a:hover {
     color:#A5B5F9;
 }
 
 p {
     box-shadow: 5px 5px 5px #A5B5F9;
-    text-align: justify;
+    text-align: justify:
 }
 
 header, footer {
+    display: flex;
+    flex-direction: row;
     background-color: white;
     padding: 10px;
-    margin: 0px;
+}
+
+.main-christine {
+    min-height: calc(100vh - calc(123px + 79px));
+    margin: 10px;
+}
+
+.nav-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: white;
 }
